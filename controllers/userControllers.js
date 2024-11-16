@@ -1,5 +1,4 @@
 // userControllers.js
-
 const userDB = require("../model/usermodel");
 const fs = require('fs');
 const path = require('path');
