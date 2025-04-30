@@ -6,7 +6,9 @@ const cors = require("cors");
 const port = process.env.PORT || 4006;
 
 
-app.use(cors());
+app.use(cors({
+    origin:"https://idyllic-pixie-2637e8.netlify.app"
+}));
 app.use(express.json());
 
 // get images
