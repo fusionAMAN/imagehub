@@ -16,7 +16,7 @@ app.use("/uploads",express.static("./useruploads"))
 
 // user routes
 const userRoutes = require("./routes/userAuthRoutes");
-app.use("/user/api",userRoutes);
+app.use("/user/api/",userRoutes);
 
 app.get("/",(req,res)=>{
     res.status(200).json("server start")
